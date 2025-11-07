@@ -1,0 +1,123 @@
+[
+  {
+  "title": "Khorteus",
+  "image": "images/projects/Khorteus.jpg",
+  "screenshots": [
+    "images/Unity3D.png",
+    "images/Csharp.png"
+  ],
+  "github": "https://github.com/DamienRouzeau/Khorteus",
+  "download": "https://github.com/DamienRouzeau/Khorteus/releases/download/Khorteus_V0.8/0.8.zip",
+  "description": "Un tower defense en 3D developpé avec Unity et C#.\n\nDans ce jeu, vous devez défendre votre base contre des vagues d'ennemis.\n\nPour survivre, vous devrez explorer les mines à la recherche du crystal khorteus.\nAméliorez vos armes et vos compétences pour aller toujours plus loin dans les vagues.",
+  "description_en": "A tower defence game developed with Unity and C#.\n\nIn this game, you must defend your base against waves of enemies.\n\nTo survive, you will need to explore the mines in search of the khorteus crystal.\nUpgrade your weapons and skills to go further in the waves."
+  },
+    {
+  "title": "Speak now",
+  "image": "images/projects/Speaknow.png",
+  "screenshots": [
+    "images/Unity3D.png",
+    "images/Csharp.png"
+  ],
+  "github": "https://github.com/DamienRouzeau/speaknow",
+  "download": "https://damienrzu.itch.io/speak-now",
+  "description": "Jeu d'énigme à la troisième personne.\nAprès vous être naufrager sur une planète inconnue, réparez votre vaisseau sur une planète ou personne ne parle votre langue.",
+  "description_en": "A puzzle game in third person.\nAfter being shipwrecked on an unknown planet, repair your ship on a planet where no one speaks your language."
+  },
+      {
+  "title": "Dorov",
+  "image": "images/projects/Dorov.png",
+  "screenshots": [
+    "images/UE5.png",
+    "images/cpp.png"
+  ],
+  "github": "https://github.com/DamienRouzeau/Dorov",
+  "download": "https://imagiplay-studio.itch.io/dorov",
+  "description": "Jeu d'horreur à énigmes à la première personne.\nTentez de survivre aux créatures du docteur Dorov tout en vous échappant de son complexe.",
+  "description_en": "An horror puzzle game in first person.\nTry to survive the creatures of Doctor Dorov while escaping from his complex."
+  },
+      {
+  "title": "May the best win",
+  "image": "images/projects/MTBW.png",
+  "screenshots": [
+    "images/UE5.png",
+    "images/cpp.png"
+  ],
+  "github": "https://github.com/DamienRouzeau/Player-1-and-2",
+  "download": "https://mariusperrier.itch.io/may-the-best-win",
+  "description": "Projet réalisé en game jam.\nAffrontez un ami dans une série de mini-jeux pour déterminer qui sera le meilleur joueur.",
+  "description_en": "Project made in a game jam.\nFace a friend in a series of mini-games to determine who will be the best player."
+  },
+        {
+  "title": "Sleepless night",
+  "image": "images/projects/Sleeplessnight.jpg",
+  "screenshots": [
+    "images/UE5.png",
+    "images/cpp.png"
+  ],
+  "github": "https://github.com/DamienRouzeau/CreatureUnderTheBed",
+  "download": "https://store.steampowered.com/app/2582500/Sleepless_Night/?l=french",
+  "description": "Jeu d'horreur dans le style de five nights at freddy's.\n Survivez a une nuit en laissant un témoignage sur les évènements que vous vivez.\nPrêtez attention à chacun des monstres !",
+  "description_en": "Horror game in the style of five nights at freddy's.\n Survive a night by leaving a testimonial about the events you experience.\nPay attention to each of the monsters!"
+  },
+          {
+  "title": "Boomer's travel",
+  "image": "images/projects/Boomer.jpg",
+  "screenshots": [
+    "images/Unity3D.png",
+    "images/Csharp.png"
+  ],
+  "github": "https://github.com/DamienRouzeau/Reboot",
+  "download": "https://damienrzu.itch.io/boomers-travel",
+  "description": "Jeu de plateform puzzle 2D. Saurez vous finir le seul niveau que comporte ce jeu... 22 fois ?\nToujours le même niveau mais jamais la même solution.",
+  "description_en": "A platform puzzle 2D game. Will you be able to finish the only level that this game has... 22 times?\nAlways the same level but never the same solution."
+  },
+            {
+  "title": "Silent rain",
+  "image": "images/projects/silentrain.jpg",
+  "screenshots": [
+    "images/UE4.png",
+    "images/cpp.png"
+  ],
+  "github": "",
+  "download": "https://store.steampowered.com/app/1791910/Silent_Rain",
+  "description": "Jeu d'horreur multijoueur.\nExplorez des lieux abandonnés et résolvez des énigmes en groupes pour découvrire les secrets qu'ils recèlent",
+  "description_en": "A multiplayer horror game.\nExplore abandoned places and solve puzzles in groups to discover the secrets they hold."
+  },
+              {
+  "title": "Beyond memoria",
+  "image": "images/projects/beyondmemoria.jpg",
+  "screenshots": [
+    "images/UE5.png",
+    "images/cpp.png"
+  ],
+  "github": "",
+  "download": "https://store.steampowered.com/app/3622940/Beyond_Memoria/",
+  "description": "Jeu narratif à la première personne.\nExplorez un monde surnaturel en vous aidant de votre appareil photo pour découvrir des fragments de souvenirs oubliés.",
+  "description_en": "A first-person narrative game.\nExplore a supernatural world using your camera to discover fragments of forgotten memories."
+  },
+            {
+  "title": "Cora the twin amulets",
+  "image": "images/projects/Cora.png",
+  "screenshots": [
+    "images/UE5.png",
+    "images/cpp.png"
+  ],
+  "github": "https://github.com/gwendvr/CoraProject",
+  "download": "https://mariusperrier.itch.io/cora",
+  "description": "Jeu de puzzle.\nAprès être partie à la recherche d'une amulette légendaire, mais votre périple ne s'est pas passé comme prévu.\n dans l'au-dela, réunissez les deux amulettes pour retourner dans le monde des vivants.",
+  "description_en": "A puzzle game.\nAfter setting out in search of a legendary amulet, your journey did not go as planned.\n In the afterlife, reunite the two amulets to return to the world of the living."
+  },
+              {
+  "title": "Demolynov",
+  "image": "images/projects/Demolynov.png",
+  "screenshots": [
+    "images/Unity3D.png",
+    "images/Csharp.png"
+  ],
+  "github": "https://github.com/AlexisGelin/Demolynov",
+  "download": "https://damienrzu.itch.io/demolynov",
+  "description": "Jeu réalisé en game jam.\nAffrontez un ami pour savoir qui fera le plus de dégâts dans le bâtiment.\nyutilisez les armes, l'environnement et les bonus à vos avantage",
+  "description_en": "Project made in a game jam.\nFace a friend to see who will do the most damage in the building.\nUse weapons, the environment and bonuses to your advantage."
+  }
+  
+]

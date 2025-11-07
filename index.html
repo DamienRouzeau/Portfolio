@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Damien Rouzeau - Développeur</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="geometric-shapes">
+    <div class="geo-shape geo-circle"></div>
+    <div class="geo-shape geo-triangle"></div>
+    <div class="geo-shape geo-square"></div>
+</div>
+    <!-- Bouton Menu Burger -->
+    <button class="burger-menu" id="burgerMenu" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Sélecteur de langue -->
+    <div class="language-selector">
+        <button class="lang-btn active" data-lang="fr" aria-label="Français">
+            <img src="images/flags/fr.svg" alt="Français">
+        </button>
+        <button class="lang-btn" data-lang="en" aria-label="English">
+            <img src="images/flags/en.png" alt="English">
+        </button>
+    </div>
+
+    <!-- Menu Latéral -->
+    <nav class="side-menu" id="sideMenu">
+        <ul>
+            <li><a href="#accueil" data-translate="menu-home">Accueil</a></li>
+            <li><a href="#projets" data-translate="menu-projects">Projets</a></li>
+            <li><a href="#parcours" data-translate="menu-journey">Parcours</a></li>
+            <li><a href="#contact" data-translate="menu-contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Overlay pour fermer le menu -->
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="section landing">
+        <div class="landing-content fade-in">
+            <h1 class="main-title">Damien Rouzeau</h1>
+            <p class="subtitle" data-translate="subtitle">Développeur</p>
+            <div class="portrait">
+                <img src="images/moi.jpg" alt="Portrait de Damien Rouzeau" class="portrait-img">
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="section projects">
+        <div class="container">
+            <h2 class="section-title" data-translate="projects-title">Mes Projets</h2>
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Les projets seront chargés dynamiquement -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Parcours -->
+    <section id="parcours" class="section journey">
+        <div class="container">
+            <h2 class="section-title" data-translate="journey-title">Mon Parcours</h2>
+            <div class="timeline">
+                <div class="timeline-item" data-year="2024">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-logos">
+                        <img src="images/Unitybig.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/Csharpbig.png" alt="Logo Formation" class="timeline-logo">
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-translate="journey-step1-title-Ereel">Alternance chez Ereel</h3>
+                        <span class="timeline-year">2024 Brignais</span>
+                        <p data-translate="journey-step1-desc-Ereel-1">Développement d'escape game VR sur Unity.</p>
+                        <p data-translate="journey-step1-desc-Ereel-2">Accueil client.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2024">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-logos">
+                        <img src="images/Unitybig.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/Csharpbig.png" alt="Logo Formation" class="timeline-logo">
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-translate="journey-step2-title-BF">Alternance chez Breakfirst</h3>
+                        <span class="timeline-year">2024 Villeurbanne</span>
+                        <p data-translate="journey-step2-desc-BF">Développement de jeu multijoueur sur Unity.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2023">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-logos">
+                        <img src="images/Unitybig.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/Csharpbig.png" alt="Logo Formation" class="timeline-logo">
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-translate="journey-step2-title-AC">Stage chez Aware corp</h3>
+                        <span class="timeline-year">2024 Lyon 2</span>
+                        <p data-translate="journey-step2-desc-AC">Développement de jeu casual sur Unity pour mobile.</p>
+                    </div>
+                </div>
+                    <div class="timeline-item" data-year="2023">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-logos">
+                        <img src="images/Unitybig.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/Csharpbig.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/UE5big.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/cppbig.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/sql.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/python.png" alt="Logo Formation" class="timeline-logo">
+
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-translate="journey-step2-title-MYnov">Master développeur à Ynov</h3>
+                        <span class="timeline-year">2023 Lyon 2</span>
+                        <p data-translate="journey-step2-desc-MYnov-1">Option jeux vidéo.</p>
+                        <p data-translate="journey-step2-desc-MYnov-2">Perfectionnement dans les langages et moteurs utilisés pour les jeux vidéo.</p>
+                        <p data-translate="journey-step2-desc_MYnov-3">Programmation d'IA.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2023">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-logos">
+                        <img src="images/UE4big.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/UE5big.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/cppbig.png" alt="Logo Formation" class="timeline-logo">
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-translate="journey-step2-title-SI">Stage chez Seedlers Interactive</h3>
+                        <span class="timeline-year">2023 Lyon 9</span>
+                        <p data-translate="journey-step2-desc-SI-1">Développement de jeux sur Unreal Engine 4 et 5.</p>
+                        <p data-translate="journey-step2-desc-SI-2">Mise en ligne sur Steam.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2022">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-logos">
+                        <img src="images/Unitybig.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/Csharpbig.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/UE5big.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/cppbig.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/sql.png" alt="Logo Formation" class="timeline-logo">
+
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-translate="journey-step2-title-BYnov">Bachelor développeur à Ynov</h3>
+                        <span class="timeline-year">2022 Lyon 7</span>
+                        <p data-translate="journey-step2-desc-BYnov-1">Option jeux vidéo.</p>
+                        <p data-translate="journey-step2-desc-BYnov-2">Apprentissage des langages et moteurs utilisés pour les jeux vidéo.</p>
+                        <p data-translate="journey-step2-desc-BYnov-3">Programmation orientée objet.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2022">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-logos">
+                        <img src="images/python.png" alt="Logo Formation" class="timeline-logo">
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-translate="journey-step3-title-Val">Travail chez Valbruna</h3>
+                        <span class="timeline-year">2022 Charvieu-Chavagneux</span>
+                        <p data-translate="journey-step3-desc-Val-1">Support technique et développeur python.</p>
+                        <p data-translate="journey-step3-desc-Val-2">Communications en anglais.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2019">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-logos">
+                        <img src="images/ubuntu.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/ssh.png" alt="Logo Formation" class="timeline-logo">
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-translate="journey-step4-title-TNE">Alternance chez Telnowedge</h3>
+                        <span class="timeline-year">2019 Montbonnot</span>
+                        <p data-translate="journey-step4-desc-TNE">Support technique, conseil client et gestion du réseau.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2019">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-logos">
+                        <img src="images/C.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/sql.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/python.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/java.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/js.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/html.png" alt="Logo Formation" class="timeline-logo">
+                        <img src="images/css.png" alt="Logo Formation" class="timeline-logo">
+
+                    </div>
+                    <div class="timeline-content">
+                        <h3 data-translate="journey-step4-title-BTS">Début du BTS SNIR au Grésivaudan</h3>
+                        <span class="timeline-year">2019 Meylan</span>
+                        <p data-translate="journey-step4-desc-BTS">Apprentissage des langages basique et des bases en réseau.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-year="2019">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3 data-translate="journey-step4-title-bac">Obtention du bac STI2D</h3>
+                        <span class="timeline-year">2019 Bourgoin-Jallieu</span>
+                        <p data-translate="journey-step4-desc"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section contact">
+    <div class="container">
+        <h2 class="section-title" data-translate="contact-title">Contact</h2>
+        <form class="contact-form" id="contactForm">
+            <div class="form-group">
+                <label for="email" data-translate="contact-email">Votre email</label>
+                <input type="email" id="user_email" name="email" required placeholder="exemple@email.com">
+            </div>
+            <div class="form-group">
+                <label for="subject" data-translate="contact-subject">Objet</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="message" data-translate="contact-message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <button type="submit" class="btn-submit" data-translate="contact-send">Envoyer</button>
+        </form>
+    </div>
+</section>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
