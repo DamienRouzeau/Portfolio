@@ -16,16 +16,16 @@ const translations = {
         'project-download': 'Télécharger',
 
         // Parcours - Ereel
-        'journey-step1-title-Ereel': 'Alternance chez Ereel',
+        'journey-step1-title-Ereel': 'Travail chez Ereel',
         'journey-step1-desc-Ereel-1': 'Développement d\'escape game VR sur Unity.',
         'journey-step1-desc-Ereel-2': 'Accueil client.',
 
         // Parcours - Breakfirst
-        'journey-step2-title-BF': 'Alternance chez Breakfirst',
+        'journey-step2-title-BF': 'Travail chez Breakfirst',
         'journey-step2-desc-BF': 'Développement de jeu multijoueur sur Unity.',
 
         // Parcours - Aware corp
-        'journey-step2-title-AC': 'Stage chez Aware corp',
+        'journey-step2-title-AC': 'Travail chez Aware corp',
         'journey-step2-desc-AC': 'Développement de jeu casual sur Unity pour mobile.',
 
         // Parcours - Ynov Master
@@ -35,7 +35,7 @@ const translations = {
         'journey-step2-desc_MYnov-3': 'Programmation d\'IA.',
 
         // Parcours - Seedlers Interactive
-        'journey-step2-title-SI': 'Stage chez Seedlers Interactive',
+        'journey-step2-title-SI': 'Travail chez Seedlers Interactive',
         'journey-step2-desc-SI-1': 'Développement de jeux sur Unreal Engine 4 et 5.',
         'journey-step2-desc-SI-2': 'Mise en ligne sur Steam.',
 
@@ -51,7 +51,7 @@ const translations = {
         'journey-step3-desc-Val-2': 'Communications en anglais.',
 
         // Parcours - Telnowedge
-        'journey-step4-title-TNE': 'Alternance chez Telnowedge',
+        'journey-step4-title-TNE': 'Travail chez Telnowedge',
         'journey-step4-desc-TNE': 'Support technique, conseil client et gestion du réseau.',
 
         // Parcours - BTS
@@ -78,16 +78,16 @@ const translations = {
         'project-download': 'Download',
 
         // Parcours - Ereel
-        'journey-step1-title-Ereel': 'Apprenticeship at Ereel',
+        'journey-step1-title-Ereel': 'Work at Ereel',
         'journey-step1-desc-Ereel-1': 'Development of VR escape games with Unity.',
         'journey-step1-desc-Ereel-2': 'Client reception and support.',
 
         // Parcours - Breakfirst
-        'journey-step2-title-BF': 'Apprenticeship at Breakfirst',
+        'journey-step2-title-BF': 'Work at Breakfirst',
         'journey-step2-desc-BF': 'Development of multiplayer games with Unity.',
 
         // Parcours - Aware corp
-        'journey-step2-title-AC': 'Internship at Aware corp',
+        'journey-step2-title-AC': 'Work at Aware corp',
         'journey-step2-desc-AC': 'Development of casual mobile games with Unity.',
 
         // Parcours - Ynov Master
@@ -97,7 +97,7 @@ const translations = {
         'journey-step2-desc_MYnov-3': 'AI programming.',
 
         // Parcours - Seedlers Interactive
-        'journey-step2-title-SI': 'Internship at Seedlers Interactive',
+        'journey-step2-title-SI': 'Work at Seedlers Interactive',
         'journey-step2-desc-SI-1': 'Game development on Unreal Engine 4 and 5.',
         'journey-step2-desc-SI-2': 'Publishing on Steam.',
 
@@ -113,7 +113,7 @@ const translations = {
         'journey-step3-desc-Val-2': 'Communication in English.',
 
         // Parcours - Telnowedge
-        'journey-step4-title-TNE': 'Apprenticeship at Telnowedge',
+        'journey-step4-title-TNE': 'Work at Telnowedge',
         'journey-step4-desc-TNE': 'Technical support, customer advice and network management.',
 
         // Parcours - BTS
