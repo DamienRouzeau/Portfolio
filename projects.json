@@ -1,5 +1,17 @@
 [
   {
+  "title": "Puffy jump",
+  "image": "images/projects/Puffyjump.jpg",
+  "screenshots": [
+    "images/jme3.png",
+    "images/javalittle.png"
+  ],
+  "github": "https://github.com/DamienRouzeau/Platformer",
+  "download": "",
+  "description": "Platformer 2D développé sur JMonkey Engine en Java. Arrivez à la fin du parcour en battant votre record.",
+  "description_en": "2D platformer developed on JMonkey Engine in Java. Reach the end of the course by beating your record."
+  },
+  {
   "title": "Khorteus",
   "image": "images/projects/Khorteus.jpg",
   "screenshots": [
@@ -8,7 +20,7 @@
   ],
   "github": "https://github.com/DamienRouzeau/Khorteus",
   "download": "https://github.com/DamienRouzeau/Khorteus/releases/download/Khorteus_V0.8/0.8.zip",
-  "description": "Un tower defense en 3D developpé avec Unity et C#.\n\nDans ce jeu, vous devez défendre votre base contre des vagues d'ennemis.\n\nPour survivre, vous devrez explorer les mines à la recherche du crystal khorteus.\nAméliorez vos armes et vos compétences pour aller toujours plus loin dans les vagues.",
+  "description": "Un tower defense en 3D développé avec Unity et C#.\n\nDans ce jeu, vous devez défendre votre base contre des vagues d'ennemis.\n\nPour survivre, vous devrez explorer les mines à la recherche du crystal khorteus.\nAméliorez vos armes et vos compétences pour aller toujours plus loin dans les vagues.",
   "description_en": "A tower defence game developed with Unity and C#.\n\nIn this game, you must defend your base against waves of enemies.\n\nTo survive, you will need to explore the mines in search of the khorteus crystal.\nUpgrade your weapons and skills to go further in the waves."
   },
     {
