@@ -13,7 +13,7 @@ const translations = {
         'contact-message': 'Message',
         'contact-send': 'Envoyer',
         'project-github': 'Voir sur GitHub',
-        'project-download': 'Télécharger',
+        'project-download': 'Voir le projet',
 
         // Parcours - Ereel
         'journey-step1-title-Ereel': 'Travail chez Ereel',
@@ -75,7 +75,7 @@ const translations = {
         'contact-message': 'Message',
         'contact-send': 'Send',
         'project-github': 'View on GitHub',
-        'project-download': 'Download',
+        'project-download': 'View the project',
 
         // Parcours - Ereel
         'journey-step1-title-Ereel': 'Work at Ereel',
