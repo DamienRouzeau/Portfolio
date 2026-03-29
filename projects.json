@@ -7,7 +7,7 @@
       "images/js.png"
     ],
     "github": "https://github.com/DamienRouzeau/ClimbTracker",
-    "download": "",
+    "download": "https://climb-tracker-eight.vercel.app",
     "description": "Ajoutez les sessions d'escalade que vous faites en renseignant les voies réussies et profitez du suivi de vos performances.",
     "description_en": "Add the climbing sessions you do by entering the routes you've completed, and track your performance."
   },
