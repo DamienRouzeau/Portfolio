@@ -211,7 +211,7 @@ function displayProjects() {
     projectsGrid.innerHTML = '';
     
     const githubText = currentLang === 'fr' ? 'Voir sur GitHub' : 'View on GitHub';
-    const downloadText = currentLang === 'fr' ? 'Télécharger' : 'Download';
+    const downloadText = currentLang === 'fr' ? 'Voir le projet' : 'View the project';
     
     projects.forEach((project, index) => {
         const projectCard = document.createElement('div');
