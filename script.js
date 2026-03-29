@@ -47,7 +47,7 @@ const translations = {
 
         // Parcours - Valbruna
         'journey-step3-title-Val': 'Travail chez Valbruna',
-        'journey-step3-desc-Val-1': 'Support technique et développeur python.',
+        'journey-step3-desc-Val-1': 'Support technique, développeur python et java.',
         'journey-step3-desc-Val-2': 'Communications en anglais.',
 
         // Parcours - Telnowedge
@@ -109,7 +109,7 @@ const translations = {
 
         // Parcours - Valbruna
         'journey-step3-title-Val': 'Work at Valbruna',
-        'journey-step3-desc-Val-1': 'Technical support and Python developer.',
+        'journey-step3-desc-Val-1': 'Technical support, Java and Python developer.',
         'journey-step3-desc-Val-2': 'Communication in English.',
 
         // Parcours - Telnowedge
